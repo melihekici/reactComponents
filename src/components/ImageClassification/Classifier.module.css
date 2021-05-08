@@ -1,0 +1,57 @@
+.image-div {
+    width: 806px;
+    height: 606px;
+    border: solid;
+    margin: 3rem auto auto auto;
+    box-shadow: 1rem -1rem 1rem rgba(0, 0, 0, 0.9);
+    border-radius: 1%;
+}
+
+.myImg {
+    width: 800px;
+    height: 600px;
+    padding: 0;
+    margin: 0;
+    border-radius: .5%;
+}
+
+.input-div {
+    margin: auto;
+    border: none;
+    text-align: center;
+    padding: 1rem;
+}
+
+.classification-div {
+    text-align: center;
+    padding-right: 2rem;
+}
+
+.project-info {
+    padding-left: 1rem;
+}
+
+@media (max-width: 810px) {
+    .myImg {
+        width: 600px;
+        height: 450px;
+    }
+
+    .image-div {
+        width: 606px;
+        height: 456px;
+    }
+}
+
+@media (max-width: 610px) {
+    .myImg {
+        width: 400px;
+        height: 300px;
+    }
+
+    .image-div {
+        width: 406px;
+        height: 306px;
+    }
+
+}
